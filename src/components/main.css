@@ -1,0 +1,38 @@
+.heroImage {
+  width: 80%;
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  transform: translateX(-50%);
+  filter: hue-rotate(230deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .heroImage {
+    top: 25%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .heroImage {
+    top: 35%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .heroImage {
+    top: 40%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .heroImage {
+    top: 40%;
+  }
+  .aboutBoxHide {
+    display: "none" !important;
+  }
+}
