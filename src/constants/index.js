@@ -158,7 +158,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Freelancer",
+    title: "Frontend/UI-UX Freelancer",
     company_name: "10+ projects",
     icon: newLogo2,
     iconBg: "black",
