@@ -19,7 +19,8 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern":
+          "url('https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/herobg.png?alt=media&token=259df163-3489-40f7-bffe-3f307828986d')",
       },
     },
   },

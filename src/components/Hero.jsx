@@ -56,9 +56,21 @@ const Hero = () => {
       {/* <ComputersCanvas /> */}
       <img
         src={
+          "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/plane.png?alt=media&token=4508b2e7-5e87-4b50-ba6c-acd66d01f2ca"
+        }
+        className="heroImageSecond"
+      />
+      <img
+        src={
           "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/tech%2Faeroplane.png?alt=media&token=103e82f7-78e8-454f-9664-308d628c882c"
         }
         className="heroImage"
+      />
+      <img
+        src={
+          "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/plane.png?alt=media&token=4508b2e7-5e87-4b50-ba6c-acd66d01f2ca"
+        }
+        className="heroImageThird"
       />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center heroMotion">
