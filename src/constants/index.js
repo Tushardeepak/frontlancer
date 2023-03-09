@@ -224,7 +224,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Tushar optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Tushar designed our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Amit Singh",
     designation: "Founder/Freelancer",
     company: "Siteguide",
