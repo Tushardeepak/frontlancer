@@ -2,9 +2,10 @@
   width: 80%;
   position: absolute;
   top: 20%;
-  left: 55%;
+  left: 12%;
   transform: translateX(-50%);
   filter: hue-rotate(230deg);
+  transform: rotate(-10deg);
 }
 
 .heroMotion {
@@ -38,7 +39,9 @@
 @media screen and (max-width: 400px) {
   .heroImage {
     top: 50%;
-    left: 50%;
+    left: 0%;
+    transform: rotate(-35deg);
+    width: 100%;
   }
   .heroMotion {
     top: 85% !important;
