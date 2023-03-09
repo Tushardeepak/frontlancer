@@ -9,9 +9,9 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { git, linkedin } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt className="xs:w-[150px] w-[140px]">
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      // variants={fadeIn("top", "spring", index * 0.2, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
@@ -20,15 +20,15 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[180px] flex justify-evenly items-center flex-col"
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[120px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
           alt="web-development"
-          className="w-12 h-12 object-contain"
+          className="w-8 h-8 object-contain"
         />
 
-        <h3 className="text-white text-[20px] font-bold text-center">
+        <h3 className="text-white text-[15px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -90,12 +90,12 @@ const About = () => {
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className="sm:flex hidden mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-
+      {/* 
       <div className="sm:hidden mt-20 flex flex-wrap gap-10">
         {services.map(
           (service, index) =>
@@ -103,7 +103,7 @@ const About = () => {
               <ServiceCard key={service.title} index={index} {...service} />
             )
         )}
-      </div>
+      </div> */}
     </>
   );
 };

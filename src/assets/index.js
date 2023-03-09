@@ -1,6 +1,6 @@
+import close from "./close.svg";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
-import close from "./close.svg";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -13,32 +13,26 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
-import fan from "./fan.svg";
-import reactImage from "./reactImage.png";
-import des from "./des.svg";
-import arc from "./arc.svg";
-import mob from "./mob.svg";
-import scale from "./scale.svg";
-import per from "./per.svg";
-import reach from "./reach.svg";
-import software from "./software.png";
-import newLogo2 from "./newLogo2.png";
-import lead from "./lead.png";
-import world from "./world.png";
-import sass from "./sass.png";
-import firebase from "./firebase.png";
-import aws from "./aws.png";
 import appwrite from "./appwrite.png";
+import arc from "./arc.svg";
+import aws from "./aws.png";
+import des from "./des.svg";
+import fan from "./fan.svg";
+import firebase from "./firebase.png";
+import git from "./git.png";
 import java from "./java.png";
-import slogger from "./slogger.png";
-import jee from "./jee.png";
-import net from "./net.png";
-import tui from "./tui.png";
-import sko from "./sko.png";
-import eng from "./eng.png";
+import lead from "./lead.png";
 import link from "./link.png";
 import linkedin from "./linkedin.png";
-import git from "./git.png";
+import mob from "./mob.svg";
+import newLogo2 from "./newLogo2.png";
+import per from "./per.svg";
+import reach from "./reach.svg";
+import reactImage from "./reactImage.png";
+import sass from "./sass.png";
+import scale from "./scale.svg";
+import software from "./software.png";
+import world from "./world.png";
 
 export {
   logo,
@@ -71,12 +65,6 @@ export {
   aws,
   appwrite,
   java,
-  slogger,
-  jee,
-  net,
-  tui,
-  sko,
-  eng,
   link,
   linkedin,
   git,

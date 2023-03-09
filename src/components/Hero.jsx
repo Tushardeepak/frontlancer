@@ -1,10 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
-import aeroplane from "../assets/aeroplane.png";
 import "./main.css";
-import { git, linkedin } from "../assets";
 
 const Hero = () => {
   return (
@@ -17,7 +14,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
+        <div className="sm:block hidden">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Tushar</span>
           </h1>
@@ -32,12 +29,36 @@ const Hero = () => {
             Frontlancer
           </p>
         </div>
+
+        <div className="sm:hidden">
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Hi, I'm <span className="text-[#915EFF]">Tushar</span>
+          </h1>
+          <p
+            className={`${styles.heroSubText} mt-2 text-white-100`}
+            style={{ fontSize: "25px" }}
+          >
+            I will convert your paper-ball, <br className="sm:block hidden" />
+            into an aero-plane
+          </p>
+          <p
+            className={`${styles.heroSubText} mt-2`}
+            style={{ fontSize: "15px", opacity: 0.6 }}
+          >
+            Frontlancer
+          </p>
+        </div>
       </div>
 
       {/* <ComputersCanvas /> */}
-      <img src={aeroplane} className="heroImage" />
+      <img
+        src={
+          "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/tech%2Faeroplane.png?alt=media&token=103e82f7-78e8-454f-9664-308d628c882c"
+        }
+        className="heroImage"
+      />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center heroMotion">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

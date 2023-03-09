@@ -7,6 +7,10 @@
   filter: hue-rotate(230deg);
 }
 
+.heroMotion {
+  top: 95% !important;
+}
+
 @media screen and (max-width: 1200px) {
   .heroImage {
     top: 25%;
@@ -26,11 +30,18 @@
     top: 40%;
     width: 90%;
   }
+  .heroMotion {
+    top: 75% !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .heroImage {
-    top: 40%;
+    top: 50%;
+    left: 50%;
+  }
+  .heroMotion {
+    top: 85% !important;
   }
   .aboutBoxHide {
     display: "none" !important;

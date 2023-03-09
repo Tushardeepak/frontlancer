@@ -4,7 +4,6 @@ import {
   aws,
   css,
   des,
-  eng,
   fan,
   figma,
   firebase,
@@ -12,11 +11,9 @@ import {
   html,
   java,
   javascript,
-  jee,
   lead,
   mob,
   mongodb,
-  net,
   newLogo2,
   nodejs,
   per,
@@ -26,10 +23,7 @@ import {
   redux,
   sass,
   scale,
-  sko,
-  slogger,
   software,
-  tui,
   typescript,
   world,
 } from "../assets";
@@ -66,7 +60,7 @@ const services = [
     hide: false,
   },
   {
-    title: "High Reach",
+    title: "Reach",
     icon: reach,
     hide: true,
   },
@@ -78,7 +72,7 @@ const services = [
   {
     title: "Responsive",
     icon: mob,
-    hide: true,
+    hide: false,
   },
   {
     title: "Scalable",
@@ -88,18 +82,18 @@ const services = [
   {
     title: "Performance",
     icon: per,
-    hide: false,
+    hide: true,
   },
 ];
 
 const technologies = [
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "HTML 5",
@@ -253,11 +247,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
+        name: "pwa",
         color: "pink-text-gradient",
       },
+      {
+        name: "design",
+        color: "blue-text-gradient",
+      },
     ],
-    image: slogger,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/slogger.png?alt=media&token=a94e5d4f-ff92-45f6-9902-1af40db9ca2e",
     source_code_link: "https://withslogger.web.app/",
   },
   {
@@ -274,11 +273,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "materialUI",
+        name: "design/UI-UX",
         color: "pink-text-gradient",
       },
     ],
-    image: jee,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/jee.png?alt=media&token=a0f5c0f2-7240-48a5-9986-2a2f0e78ad5b",
     source_code_link: "https://jeesimplified-5c8e2.web.app/",
   },
   {
@@ -295,17 +295,18 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "materialUI",
         color: "pink-text-gradient",
       },
     ],
-    image: net,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/net.png?alt=media&token=e5164c8d-2848-4bfb-8982-015115b4b8ed",
     source_code_link: "https://github.com/Tushardeepak/netflixclone",
   },
   {
     name: "Skolar",
     description:
-      "The whole frontend pages were made by me, The project Consists of 15-20 pages of complex designs. Made with React, JavaScript and CSS and other react libraries.",
+      "The whole frontend pages were made by me, The project consists of 15 to 20 pages of complex designs and CSS works. The website is fully mobile responsive. Made with React, JavaScript and CSS and other react libraries.",
     tags: [
       {
         name: "react",
@@ -320,7 +321,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: sko,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/sko.png?alt=media&token=39e25d14-25eb-472a-8385-0bd87784f624",
     source_code_link:
       "https://drive.google.com/file/d/1yXTPQy49sOZyAPu7d9g0C9RLN_dfQnLh/view",
   },
@@ -342,7 +344,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tui,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/tui.png?alt=media&token=f0db4d29-758f-43a3-9532-952cda361ff8",
     source_code_link:
       "https://drive.google.com/file/d/1yXTPQy49sOZyAPu7d9g0C9RLN_dfQnLh/view",
   },
@@ -360,11 +363,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "admin-panel",
         color: "pink-text-gradient",
       },
     ],
-    image: eng,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/frontlancer.appspot.com/o/eng.png?alt=media&token=1336f897-d138-4cc3-96e5-6145b343052d",
     source_code_link:
       "https://drive.google.com/file/d/1yXTPQy49sOZyAPu7d9g0C9RLN_dfQnLh/view",
   },
