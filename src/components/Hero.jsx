@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       className={`relative w-full h-screen mx-auto`}
-      style={{ overflow: "hidden" }}
+      style={{ overflowX: "hidden" }}
     >
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
@@ -73,7 +73,10 @@ const Hero = () => {
         className="heroImageThird"
       />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center heroMotion">
+      <div
+        className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center heroMotion"
+        style={{ flexDirection: "column" }}
+      >
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -89,6 +92,12 @@ const Hero = () => {
             />
           </div>
         </a>
+        <p
+          className={`${styles.heroSubText} mt-2`}
+          style={{ fontSize: "12px", opacity: 0.6 }}
+        >
+          {"React, JS, UI/UX and Figma"}
+        </p>
       </div>
     </section>
   );

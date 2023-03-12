@@ -7,7 +7,6 @@
   filter: hue-rotate(230deg);
   transform: rotate(-10deg);
 }
-
 .heroImageSecond {
   display: none;
 }

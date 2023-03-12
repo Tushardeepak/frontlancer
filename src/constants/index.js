@@ -60,12 +60,12 @@ const services = [
     hide: false,
   },
   {
-    title: "Reach",
+    title: "Figma",
     icon: reach,
     hide: true,
   },
   {
-    title: "Architecture",
+    title: "Design",
     icon: arc,
     hide: true,
   },
@@ -94,6 +94,10 @@ const technologies = [
   {
     name: "React",
     icon: reactjs,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
   {
     name: "HTML 5",
@@ -135,10 +139,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "Appwrite",
